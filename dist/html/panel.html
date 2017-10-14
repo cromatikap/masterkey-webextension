@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="../css/base.css">
+</head>
+
+<body>
+    <h1><img src="../img/logo.svg" height="40"> <span>MasterKey</span></h1>
+
+    <form>
+        <input type="password" placeholder="Your master key" id="masterkey" autofocus> <div id="colorhash" title="Remember your passwords 'color'"></div>
+        <input type="text" placeholder="Service" id="service">
+
+        <input type="password" placeholder="(Your password)" id="password" readonly>
+    </form>
+
+    <div id="controls">
+        <input type="number" value="20" min="1" max="40" id="length"><button id="button-save" title="Save MasterKey in browser"><i>save</i></button><button id="button-show" title="Show password in cleartext?"><i>show</i></button><button id="button-special" title="Allow special characters?" class="enabled"><i>special</i></button>
+    </div>
+
+    
+</body>
+
+<script src="../js/panel.js"></script>
+
+</html>

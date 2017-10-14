@@ -1,54 +1,15 @@
 {
-  "title": "MasterKey",
   "name": "masterkey",
-  "version": "0.0.1",
-  "description": "Derivate your passwords from a secret key and the service name",
-  "icon": "resource://@masterkey/data/img/logo.png",
+  "version": "1.0.0",
+  "description": "",
   "main": "index.js",
-  "author": "Nino van der Linden",
-  "engines": {
-    "firefox": ">=38.0a1",
-    "fennec": ">=38.0a1"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "license": "MIT",
-  "keywords": [
-    "jetpack"
-  ],
-  "dependencies": {},
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "ascii85": "^0.1.0",
-    "browserify": "^13.0.0",
-    "create-hmac": "^1.1.4",
-    "event-stream": "^3.3.2",
-    "gulp": "^3.9.0",
-    "gulp-cssnano": "^2.1.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^2.1.1",
-    "gulp-streamify": "^1.0.2",
-    "gulp-uglify": "^1.5.1",
-    "randomstring": "^1.1.3",
-    "sha.js": "^2.4.4",
-    "vinyl-source-stream": "^1.1.0"
-  },
-  "permissions": {
-    "private-browsing": true
-  },
-  "preferences": [{
-    "name": "show",
-    "title": "Show password in cleartext",
-    "type": "bool",
-    "value": false
-    },
-    {
-    "name": "special",
-    "title": "Use special characters",
-    "type": "bool",
-    "value": true
-    },
-    {
-    "name": "passwordlength",
-    "title": "Password length (max 40)",
-    "type": "integer",
-    "value": 20
-    }]
+    "ascii85": "^1.0.2",
+    "create-hmac": "^1.1.6"
+  }
 }
