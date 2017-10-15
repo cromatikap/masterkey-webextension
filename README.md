@@ -13,7 +13,7 @@ Install `npm` with a packet manager of your choice.
 * `npm install`
 * `make`
 
-All files necessary for using the extension are now in dist.  
-For temporary debugging, it can be activated in Firefox (Developer Edition or Nightly) at the `about:debugging`.
+All files necessary for using the extension are now in `dist` directory.  
+For temporary debugging, it can be activated in Firefox (Developer Edition or Nightly) at the `about:debugging` page.
 
 To create the xpi file: `make xpi`
