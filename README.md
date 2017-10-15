@@ -9,7 +9,7 @@ Does currently only work in Firefox.
 Install `npm` with a packet manager of your choice.
 
 * `npm install -g browserify` (probably as root)
-* `git clone github.com/ninov/firefox-webextension && cd firefox-webextension`
+* `git clone github.com/ninov/masterkey-webextension && cd masterkey-webextension`
 * `npm install`
 * `make`
 
