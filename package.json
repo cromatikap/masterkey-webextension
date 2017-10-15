@@ -2,12 +2,11 @@
   "name": "masterkey",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "ascii85": "^1.0.2",
     "create-hmac": "^1.1.6"

@@ -16,3 +16,5 @@ js: clean_js
 css: clean_css
 	sass src/sass/base.sass dist/css/base.css
 
+xpi: all
+	cd dist; zip -r -FS ../masterkey.xpi *
